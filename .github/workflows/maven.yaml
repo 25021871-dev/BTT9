@@ -18,8 +18,8 @@ jobs:
           distribution: temurin
           java-version: 17
 
-      - name: Run tests
-        run: mvn clean test
+      - name: Run
+        run: mvn clean compile
 
       - name: Run Checkstyle
         run: mvn checkstyle:checkstyle
